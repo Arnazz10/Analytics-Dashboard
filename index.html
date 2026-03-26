@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crimson Noir Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark"></div>
+          <div>
+            <p class="eyebrow">Command Center</p>
+            <h1>Crimson Noir</h1>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <button class="nav-item active" data-section="analytics" type="button">
+            <span class="nav-icon">▦</span>
+            <span>Analytics</span>
+          </button>
+          <button class="nav-item" data-section="sales" type="button">
+            <span class="nav-icon">⌘</span>
+            <span>Sales</span>
+          </button>
+          <button class="nav-item" data-section="engagement" type="button">
+            <span class="nav-icon">◇</span>
+            <span>Engagement</span>
+          </button>
+          <button class="nav-item" data-section="settings" type="button">
+            <span class="nav-icon">⚙</span>
+            <span>Settings</span>
+          </button>
+        </nav>
+
+        <div class="profile-card">
+          <div class="avatar">A</div>
+          <div>
+            <strong>Arnab Kr Mal</strong>
+            <p>Administrator</p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <label class="search">
+            <span>⌕</span>
+            <input id="searchInput" type="text" placeholder="Search cards..." />
+          </label>
+          <div class="topbar-actions">
+            <button class="icon-button" aria-label="Alerts">◌</button>
+            <button class="icon-button" aria-label="History">↺</button>
+            <div class="user-chip">
+              <div class="avatar avatar-small">A</div>
+            </div>
+          </div>
+        </header>
+
+        <section class="hero">
+          <div>
+            <p class="hero-kicker" id="heroKicker">System overview</p>
+            <h2 id="heroTitle">Analytics</h2>
+            <p id="heroCopy"></p>
+          </div>
+        </section>
+
+        <section class="grid" id="sectionGrid"></section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
