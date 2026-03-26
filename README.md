@@ -2,7 +2,7 @@
   <img src="./assets/dashboard-preview.png" alt="Crimson Noir Analytics Dashboard Preview" width="100%" />
 </p>
 
-<h1 align="center">Crimson Noir Analytics Dashboard</h1>
+<h1 align="center">Analytics Dashboard</h1>
 
 <p align="center">
   A modern, dark-themed, interactive analytics dashboard crafted with pure HTML, CSS, and JavaScript.
