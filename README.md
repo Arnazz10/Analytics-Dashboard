@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="./assets/dashboard-preview.png" alt="Analytics Dashboard Preview" width="100%" />
-</p>
 
 <h1 align="center">Analytics Dashboard</h1>
 
